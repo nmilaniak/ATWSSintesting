@@ -1,0 +1,20 @@
+<ul>
+  <li class="{% if page.overview %}current{% endif %}">
+    <a href="/docs/atlas/">ATWSS</a>
+  </li>
+  <li class="{% if page.url contains '/docs/' %}current{% endif %}">
+    <a href="/docs/overview/">Overview</a>
+  </li>
+  <li class="{% if page.author %}current{% endif %}">
+    <a href="/docs/people/">People</a>
+  </li>
+  <li class="{% if page.url contains '/docs/' %}current{% endif %}">
+    <a href="/docs/gruop/">Group</a>
+  </li>
+  <li class="{% if page.url contains '/docs/' %}current{% endif %}">
+    <a href="/docs/cern/">CERN</a>
+  </li>
+  <li class="{% if page.url contains '/docs/' %}current{% endif %}">
+    <a href="/docs/CERN info/">Info about CERN</a>
+  </li>
+</ul>

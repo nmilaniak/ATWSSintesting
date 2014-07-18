@@ -1,0 +1,115 @@
+<!-- Navbar
+    ================================================== -->
+<html>
+
+  <head>
+    <link rel="stylesheet" href="../bootswatch/bootstrap.css">
+    
+</head>
+
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+  <ul class="nav nav-tabs">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/index.php"><img src="/img/favicon.png">ATWSS</a>
+            <div class="collapse navbar-collapse collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li{% if page.slug == "overview" %} class="active"{% endif %}>
+                      <a href="/docs/overview/">Overview</a>
+                    </li>
+                    <li{% if page.slug == "camera view and plots" %} class="active"{% endif %}>
+                      <a href="/docs/CameraView/">Camera View</a>
+                    </li>
+
+<!--
+              <li{% if page.slug == "equipment" %} class="active"{% endif %}>
+                <a href="{{ page.dir }}/equipment">Equipment</a>
+              </li>
+            -->
+      <!--
+              <li{% if page.slug == "interface" %} class="active"{% endif %}>
+                <a href="/APVS/index.html">Interface <span class="glyphicon glyphicon-lock"></span></a>
+              </li>
+            -->
+                <li{% if page.slug == "interventions" %} class="active"{% endif %}>
+                      <a href="/docs/cern/interventions/">Interventions<span class="fa fa-lock"></span></a>
+                    </li>
+                    <li class="dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                      Dosimeters <span class="fa fa-caret-down"></span> <span class="fa fa-lock"></span></a>
+                      <ul class="dropdown-menu">
+                          <li><a href="../docs/cern/interventions/">Interventions</a></li>
+                    <li class="divider"></li>
+                          <li><a href="{{ page.dir }}/cern/dosimeters?InterventionID=1">Intervention 1</a></li>
+                          <li><a href="{{ page.dir }}/cern/dosimeters?InterventionID=2">Intervention 2</a></li>
+                          <li><a href="{{ page.dir }}/cern/dosimeters?InterventionID=3">Intervention 3</a></li>
+                          <li><a href="{{ page.dir }}/cern/dosimeters?InterventionID=4">Intervention 4</a></li>
+                          <li><a href="{{ page.dir }}/cern/dosimeters?InterventionID=5">Intervention 5</a></li>
+                          <li><a href="{{ page.dir }}/cern/dosimeters?InterventionID=6">Intervention 6</a></li>
+                          <li><a href="{{ page.dir }}/cern/dosimeters?InterventionID=7">Intervention 7</a></li>
+                          <li class="divider"></li>
+              <li><a href="http://dimi.com">Good Old 'dimi.com'</a></li>
+                      </ul>
+                    </li>
+                    <li{% if page.slug == "people" %} class="active"{% endif %}>
+                      <a href="/docs/people/">People</a>
+                    </li>
+                    <li class="dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                      Group <span class="fa fa-caret-down"></span> <span class="fa fa-lock"></span></a>
+                      <ul class="dropdown-menu">
+                          <li><a href="/docs/group/phase3.html">Phase III Q/A</a></li>
+                          <li><a href="/docs/group/software.html">Software</a></li>
+                      </ul>
+                  </li>
+                </ul>
+          <ul class="nav navbar-nav pull-right">
+            <li class="dropdown">
+                      <a href="/docs/cerninfo" class="dropdown-toggle" data-toggle="dropdown" href="#">
+                      CERN <span class="fa fa-caret-down"></b> <span class="fa fa-lock"></span></a>
+                      <ul class="dropdown-menu">
+                           <li><a href="/docs/cerninfo/" data-toggle="tab">About CERN</a></li>
+            <li class="divider"></li>
+            <li><a href="#2" data-toggle="tab">Physics</a></li>
+            <li><a href="#3" data-toggle="tab">Computing</a></li>
+            <li class="divider"></li>
+            <li><a href="#4" data-toggle="tab">How a detector works</a></li>
+            <li><a href="#5" data-toggle="tab">How an accelerator works</a></li>
+            <li class="divider"></li>
+            <li><a href="#6" data-toggle="tab">ALICE</a></li>
+            <li class="divider"></li>
+            <li><a href="#7" data-toggle="tab">CMS</a></li>
+            <li class="divider"></li>
+            <li><a href="#8" data-toggle="tab">LHCb</a></li>
+                      </ul>
+                    </li>
+                    <li{% if page.slug == "atlas" %} class="active"{% endif %}>
+                      <a href="/docs/atlas/">ATLAS</a>
+                    </li>
+                    <li>
+                      <form class="navbar-form navbar-left">
+          <input class="form-control col-lg-8" placeholder="Search" type="text">
+        </li>
+      </form>
+<!--
+                  </ul>
+
+        <?php
+      if (isset($_SERVER['ADFS_FULLNAME'])) {
+        echo "<li><a href=\"#\">".$_SERVER['ADFS_FULLNAME']."</a></li>";
+    }
+              ?>
+-->
+              
+      </div>
+        
+        </ul> 
+        </div>
+    </div>
+</body>
+</html>
