@@ -25,23 +25,29 @@ dir: .
 		      </div>
           <div class="row clearfix">
             <hr>
-        		<div class="col-md-6 column">
-           		<embed src="../Users/aleksandra/Desktop/A&Dff.avi"></embed>
+        		<div class="col-md-12 column">
+           		<embed src="/img/lhc.mp4" width=100%></embed>
            	</div>
       			<div class="col-md-6 column">
            		<h3>What is going on?</h3>
-           		<p>data</p>
-              <p>timing</p>
-				      <p>temperatur</p>
-				      <p>etc.</p>
+                <script src="highcharts.js"></script>
+                <script src="highcharts-3d.js"></script>
+                <script src="exporting.js"></script>
+                <script type="dark-green.js"></script>
+                  <div id="container"></div>
+                  <div id="sliders">
+                    <table width ="100%">
+                      <tr><td>Alpha Angle</td><td><input id="R0" type="range" min="0" max="45" value="15"/> <span id="R0-value" class="value"></span></td></tr>
+                      <tr><td>Beta Angle</td><td><input id="R1" type="range" min="0" max="45" value="15"/> <span id="R1-value" class="value"></span></td></tr>
+                    </table>
+                  </div>
             </div>
-		      </div>
-          <div class="row clearfix">
+         <!-- <div class="row clearfix">
             <hr>
             <div class="col-md-12 column">
               <nav class="navbar navbar-default">
           <!-- rozciaganie po calej szerokosci ekranu: -->
-              <div class="container-fluid">   
+              <!--<div class="container-fluid">   
                 <div class="navbar-header">
                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
                     <span class="icon-bar"></span>

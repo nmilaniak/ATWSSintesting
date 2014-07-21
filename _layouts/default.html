@@ -1,7 +1,77 @@
 <!doctype html>
 <html><head>
     <!-- Meta, title, CSS, favicons, etc. -->
-    <link rel="stylesheet" href="/docs/bootswatch/bootstrap-cyborg.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Highcharts</title>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <style type="text/css">
+#container, #sliders {
+  border-color: solid #866ab3;
+  min-width: 310px; 
+  max-width: 800px;
+  margin: 0 auto;
+}
+#container {
+  border-width: 10px;
+  border: solid #66FFCC;
+  height: 600px; 
+  width: 800px;
+}
+    </style>
+    <script type="text/javascript">
+$(function () {
+    // Set up the chart
+    var chart = new Highcharts.Chart({
+        chart: {
+            renderTo: 'container',
+            type: 'column',
+            margin: 75,
+            options3d: {
+                enabled: true,
+                alpha: 15,
+                beta: 15,
+                depth: 50,
+                viewDistance: 25
+            }
+        },
+        title: {
+            text: 'Adding charts'
+        },
+        subtitle: {
+            text: 'Moving on to more awesome things'
+        },
+        plotOptions: {
+            column: {
+                depth: 25
+            }
+        },
+        series: [{
+            data: [29.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1, 95.6, 54.4]
+        }]
+    });
+    
+
+    // Activate the sliders
+    $('#R0').on('change', function(){
+        chart.options.chart.options3d.alpha = this.value;
+        showValues();
+        chart.redraw(false);
+    });
+    $('#R1').on('change', function(){
+        chart.options.chart.options3d.beta = this.value;
+        showValues();
+        chart.redraw(false);
+    });
+
+    function showValues() {
+        $('#R0-value').html(chart.options.chart.options3d.alpha);
+        $('#R1-value').html(chart.options.chart.options3d.beta);
+    }
+    showValues();
+});
+    </script>
+    <link rel="stylesheet" href="/docs/bootswatch/darkly.css">
     </head><body data-spy="scroll" data-target=".bs-sidebar">{% include header.html %}
     <!-- Place anything custom after this. -->
   
@@ -54,7 +124,7 @@
 
     <!-- Main docs footer (social buttons, copyright, etc). -->
 
-    {% include colophon.html %}
+    {% include colophon2.html %}
     <!-- JS and analytics only. -->
     {% include footer.html %}
 
