@@ -4783,7 +4783,7 @@ a.list-group-item-danger.active:focus {
 }
 .panel-footer {
   padding: 10px 15px;
-  background-color: #3c3c3c;
+  background-color: #000c3c;
   border-top: 1px solid #282828;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
