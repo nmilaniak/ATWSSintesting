@@ -1,30 +1,37 @@
 <!doctype html>
 <html><head>
     <!-- Meta, title, CSS, favicons, etc. -->
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Highcharts Example</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Highcharts</title>
 
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <style type="text/css">
 
 #container {
   height: 400px; 
-  border:;
-  border-width: 20px;
-  border-color: #ffffff;
+
 }
     </style>
     <script type="text/javascript">
 $(function () {
         $('#container').highcharts({
             chart: {
+                borderColor: '#3366CC',
+                borderWidth: 2,
+                backgroundColor: {
+                linearGradient: [0, 0, 500, 500],
+                stops: [
+                    [0, 'rgb(255, 255, 255)'],
+                    [1, 'rgb(200, 200, 255)']
+                ]
+            },
                 type: 'line'
             },
             title: {
-                text: 'Monthly Average Temperature'
+                text: 'Temperature'
             },
             subtitle: {
-                text: 'Source: WorldClimate.com'
+                text: 'Source: cern.ch'
             },
             xAxis: {
                 categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
@@ -39,14 +46,14 @@ $(function () {
                     dataLabels: {
                         enabled: true
                     },
-                    enableMouseTracking: false
+                    enableMouseTracking: true
                 }
             },
             series: [{
-                name: 'Tokyo',
+                name: 'Atlas',
                 data: [7.0, 6.9, 9.5, 14.5, 18.4, 21.5, 25.2, 26.5, 23.3, 18.3, 13.9, 9.6]
             }, {
-                name: 'London',
+                name: 'Alice',
                 data: [3.9, 4.2, 5.7, 8.5, 11.9, 15.2, 17.0, 16.6, 14.2, 10.3, 6.6, 4.8]
             }]
         });
