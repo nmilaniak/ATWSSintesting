@@ -117,7 +117,7 @@ h3 code {
 }
 
 .jumbotron:after {
-	background: url("../img/Front.jpeg") repeat scroll left center
+	background: url("../img/electricity.jpg") repeat scroll left center
 		transparent;
 	opacity: 0.75;
 	bottom: 0;

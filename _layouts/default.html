@@ -1,22 +1,18 @@
 <!doctype html>
 <html><head>
     <!-- Meta, title, CSS, favicons, etc. -->
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Highcharts</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Highcharts Example</title>
 
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <style type="text/css">
 #container, #sliders {
-  border-color: solid #866ab3;
   min-width: 310px; 
   max-width: 800px;
   margin: 0 auto;
 }
 #container {
-  border-width: 10px;
-  border: solid #66FFCC;
-  height: 600px; 
-  width: 800px;
+  height: 400px; 
 }
     </style>
     <script type="text/javascript">
@@ -39,7 +35,7 @@ $(function () {
             text: 'Adding charts'
         },
         subtitle: {
-            text: 'Moving on to more awesome things'
+            text: 'Moving on to some awesome things'
         },
         plotOptions: {
             column: {
@@ -47,7 +43,7 @@ $(function () {
             }
         },
         series: [{
-            data: [29.9, 71.5, 106.4, 129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1, 95.6, 54.4]
+            data: [129.9, 71.5, 106.4, 129.2, 99.0, 176.0, 135.6, 148.5, 216.4, 15.5, 95.6, 54.4]
         }]
     });
     
@@ -71,7 +67,7 @@ $(function () {
     showValues();
 });
     </script>
-    <link rel="stylesheet" href="/docs/bootswatch/darkly.css">
+    <link rel="stylesheet" href="/docs/bootswatch/slate.css">
     </head><body data-spy="scroll" data-target=".bs-sidebar">{% include header.html %}
     <!-- Place anything custom after this. -->
   
