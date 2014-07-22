@@ -6,66 +6,53 @@
 
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <style type="text/css">
-#container, #sliders {
-  min-width: 310px; 
-  max-width: 800px;
-  margin: 0 auto;
-}
+
 #container {
   height: 400px; 
+  border:;
+  border-width: 20px;
+  border-color: #ffffff;
 }
     </style>
     <script type="text/javascript">
 $(function () {
-    // Set up the chart
-    var chart = new Highcharts.Chart({
-        chart: {
-            renderTo: 'container',
-            type: 'column',
-            margin: 75,
-            options3d: {
-                enabled: true,
-                alpha: 15,
-                beta: 15,
-                depth: 50,
-                viewDistance: 25
-            }
-        },
-        title: {
-            text: 'Adding charts'
-        },
-        subtitle: {
-            text: 'Moving on to some awesome things'
-        },
-        plotOptions: {
-            column: {
-                depth: 25
-            }
-        },
-        series: [{
-            data: [129.9, 71.5, 106.4, 129.2, 99.0, 176.0, 135.6, 148.5, 216.4, 15.5, 95.6, 54.4]
-        }]
+        $('#container').highcharts({
+            chart: {
+                type: 'line'
+            },
+            title: {
+                text: 'Monthly Average Temperature'
+            },
+            subtitle: {
+                text: 'Source: WorldClimate.com'
+            },
+            xAxis: {
+                categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+            },
+            yAxis: {
+                title: {
+                    text: 'Temperature (°C)'
+                }
+            },
+            plotOptions: {
+                line: {
+                    dataLabels: {
+                        enabled: true
+                    },
+                    enableMouseTracking: false
+                }
+            },
+            series: [{
+                name: 'Tokyo',
+                data: [7.0, 6.9, 9.5, 14.5, 18.4, 21.5, 25.2, 26.5, 23.3, 18.3, 13.9, 9.6]
+            }, {
+                name: 'London',
+                data: [3.9, 4.2, 5.7, 8.5, 11.9, 15.2, 17.0, 16.6, 14.2, 10.3, 6.6, 4.8]
+            }]
+        });
     });
     
 
-    // Activate the sliders
-    $('#R0').on('change', function(){
-        chart.options.chart.options3d.alpha = this.value;
-        showValues();
-        chart.redraw(false);
-    });
-    $('#R1').on('change', function(){
-        chart.options.chart.options3d.beta = this.value;
-        showValues();
-        chart.redraw(false);
-    });
-
-    function showValues() {
-        $('#R0-value').html(chart.options.chart.options3d.alpha);
-        $('#R1-value').html(chart.options.chart.options3d.beta);
-    }
-    showValues();
-});
     </script>
     <link rel="stylesheet" href="/docs/bootswatch/bootstrap-cyborg.css">
     </head><body data-spy="scroll" data-target=".bs-sidebar">{% include header.html %}
