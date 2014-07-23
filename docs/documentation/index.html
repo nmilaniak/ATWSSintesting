@@ -41,7 +41,7 @@ dir: .
         </div>
         </div>
         <div class="row clearfix">
-        	<div class="col-md-12 column">
+        	<div class="col-md-10 column">
         <ul>
 		<h4><li>Jekyll</li></h4>
 			<p>Adding Jekyll to your system is very useful, then you are able to build your website in a very easy and straight-forward way! You can add tabs, make default layouts for every tab without having to actually make a layout for every one separetaly!</p>
@@ -71,17 +71,30 @@ $ ORACLE_HOME=/opt/oracle/instantclient_version export ORACLE_HOME
 $ cd /opt/oracle/instantclient_version
 $ ln -s libclntsh.dylib.11.1 libclntsh.dylib
 $ gem install ruby-oci8
+and also
+$ cp config/oracle_example.rb config/oracle.rb
 		{%endhighlight bash %}
 
 		<h4><li>Back to github</li></h4>
-		<p>Once you hav installed all the componets you can either create your own website (a litlle hard for the begining) or fork somebody's work and start to understand how the system works. We suggest to fork the site from <a href="https://github.com/jekyll/jekyll">jekyll</a> to make sure how to build your own page based on all the necesary components.</p>
-		<p>You simply have to sign-in and press <strong>FORK</strong> and then the whole directory is on your account. Now you have to go to it, and click on the Jekyll Repository and then click <strong>Clone in desktop</strong>! And now you have it on your desktop! When you make changes in the documents on your computer, they are automaticly synchronized with github, to change them permenantly on your account to simply have to <em>Commit</em> and it's done!</p>
-		<h3>How easy was that?!</h3>
-		<p>If you had any problems do not hesitate to contact me <code>@natalia.milaniak@cern.com </code></p>
+			<p>Once you hav installed all the componets you can either create your own website (a litlle hard for the begining) or fork somebody's work and start to understand how the system works. We suggest to fork the site from <a href="https://github.com/jekyll/jekyll">jekyll</a> to make sure how to build your own page based on all the necesary components.</p>
+			<p>You simply have to sign-in and press <strong>FORK</strong> and then the whole directory is on your account. Now you have to go to it, and click on the Jekyll Repository and then click <strong>Clone in desktop</strong>! And now you have it on your desktop! When you make changes in the documents on your computer, they are automaticly synchronized with github, to change them permenantly on your account to simply have to <em>Commit</em> and it's done!</p>
+		<h4><li>Jekyll once again</li></h4>
+			<p>Now simply open your terminal --> go to the directory which contains your site, for example <code>cd Desktop/Jekyll-master</code> and then type: </p>
+			{%highlight bash %}
+$ ruby -rubygems db-test.rb
+$ jekyll build
+$ jekyll serve 
+			{%endhighlight bash %}
+			<p>This command has created a new directory in your project which is called <em>_site</em>. It is now ready to be thrown to the deep oceans of web.</p>
+			<p>Now, just simply type <code>localhost:4000</code> in your browser and the whole site is yours to explore!</p>
+		<h4><li>MAMP</li></h4>
+		<p>Alternatively you can use something esle, which we strongly recommend, which is MAMP. You can download it <a href="http://www.mamp.info/en/mamp-pro/">here</a>. It is also a local server where you can see your website at work. Simply at the Apache Tab change the root to the newly made directory <em>_site</em> click <b>Start Servers</b> and your site is ready at <code>localhost:8000</code></p>
+			<h3>How easy was that?!</h3>
+			<p>If you had any problems do not hesitate to contact me <code>@natalia.milaniak@cern.com </code></p>
 		</ul>
 		</div>
 		</div>
 		</div>
        </div>
       </div>
-      </div>
+
