@@ -301,7 +301,7 @@ pre, code {
     border-image: none;
     border-style: solid;
     border-width: 1px;
-    color: #fff;
+    color: #000;
 }
 .ie6-8 .update-area .block-updates-significant {
     background-color: #333;
@@ -310,10 +310,10 @@ pre, code {
     color: #89cbe1;
 }
 .update-area .block-updates-significant a:hover {
-    color: #fff;
+    color: #000;
 }
 .update-area .block-updates-significant h2 a {
-    color: #fff;
+    color: #000;
 }
 .update-area .block-updates-significant h2 a:hover {
     color: #89cbe1;
