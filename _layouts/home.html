@@ -65,10 +65,26 @@
 
     <!-- Main docs footer (social buttons, copyright, etc). -->
     {% include colophon.html %}
+    <div class="row clearfix">
+    <div class="col-md-12 column">
+      <div class="row clearfix">
+        <div class="col-md-4 column">
+    <!-- JS and analytics only. -->
+          {% include footer2.html %} 
+
+        </div>
+        <div class="col-md-4 column">
+          {% include footer3.html %}
+        </div>
+        <div class="col-md-4 column">
+        {% include footer4.html %}
+        </div>
+    </div>
+  </div>
+</div>
 
 
     <!-- JS and analytics only. -->
 
-    {% include footer.html %}
   
 </body></html>
