@@ -57,7 +57,13 @@
                     <li{% if page.slug == "people" %} class="active"{% endif %}>
                       <a href="/docs/people/">People</a>
                     </li>
-                    <li class="dropdown">
+                    <li{% if page.slug == "software" %} class="active"{% endif %}>
+                      <a href="/docs/software/">Software</a>
+                    </li>
+                    <li{% if page.slug == "phase3" %} class="active"{% endif %}>
+                      <a href="/docs/phase3/">Questions and Answers</a>
+                    </li>
+                  <!--  <li class="dropdown">
                       <a class="dropdown-toggle" data-toggle="dropdown" href="#">Group<span class="fa fa-caret-down"></span> <span class="fa fa-lock"></span></a>
                       <ul class="dropdown-menu">
                           <li><a href="/docs/group/phase3/index.html">Phase III Q/A</a></li>

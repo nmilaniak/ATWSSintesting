@@ -1025,3 +1025,254 @@ html[lang="fr"] .Opinion.views-row h3:before {
 .author-profile .field-avatar img {
     height: 80px !important;
 }
+#footer {
+    background-color: rgba(40, 40, 40, 0.965);
+    background-image: -moz-linear-gradient(center top , #1e1e1e 0%, rgba(35, 35, 35, 0.2) 50%);
+    border-top: 1px solid #333;
+    clear: both;
+    color: #dddddd;
+    line-height: 1.5;
+    overflow: hidden;
+    padding: 3em 5% 5em;
+    position: relative;
+    width: 90%;
+}
+@media only screen and (max-width: 749px) {
+#footer {
+    font-size: 1.2rem;
+}
+#footer .block h2 {
+    font-size: 1.2rem;
+}
+}
+#footer a {
+    color: #89cbe1;
+}
+#footer a:hover {
+    color: #fff;
+}
+#footer .region-footer-1 {
+    clear: left;
+    display: block;
+    float: left;
+    font-size: 0.9em;
+    margin-left: 20.3809%;
+    margin-right: -100%;
+    margin-top: 1em;
+    width: 59.1894%;
+}
+#footer .region-footer-1 a {
+    color: #666666;
+}
+@media only screen and (max-width: 1023px) {
+#footer .region-footer-1 {
+    clear: both;
+    display: block;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+}
+}
+#footer .region-footer-2 {
+    display: block;
+    float: left;
+    margin-left: 20.3809%;
+    margin-right: -100%;
+    width: 18.4277%;
+}
+@media only screen and (max-width: 1023px) {
+#footer .region-footer-2 {
+    display: block;
+    float: left;
+    margin-left: 0;
+    margin-right: -100%;
+    width: 31.5333%;
+}
+}
+@media only screen and (max-width: 749px) {
+#footer .region-footer-2 {
+    display: block;
+    float: left;
+    margin-left: 0;
+    margin-right: -100%;
+    width: 47.3026%;
+}
+}
+#footer .region-footer-3 {
+    display: block;
+    float: left;
+    margin-left: 40.7617%;
+    margin-right: -100%;
+    width: 18.4277%;
+}
+@media only screen and (max-width: 1023px) {
+#footer .region-footer-3 {
+    display: block;
+    float: left;
+    margin-left: 34.2%;
+    margin-right: -100%;
+    width: 31.5333%;
+}
+}
+@media only screen and (max-width: 749px) {
+#footer .region-footer-3 {
+    display: block;
+    float: left;
+    margin-left: 52.5658%;
+    margin-right: -100%;
+    width: 47.3026%;
+}
+}
+#footer .region-footer-5 {
+    display: block;
+    float: left;
+    margin-left: 61.1426%;
+    margin-right: -100%;
+    width: 18.4277%;
+}
+@media only screen and (max-width: 1023px) {
+#footer .region-footer-5 {
+    display: block;
+    float: left;
+    margin-left: 68.4%;
+    margin-right: -100%;
+    width: 31.5333%;
+}
+}
+@media only screen and (max-width: 749px) {
+#footer .region-footer-5 {
+    clear: left;
+    display: block;
+    float: left;
+    margin-left: 0;
+    margin-right: -100%;
+    margin-top: 3em;
+    padding-top: 1em;
+    width: 47.3026%;
+}
+}
+#footer .region-footer-4 {
+    background-color: #090909;
+    clear: left;
+    display: block;
+    float: left;
+    left: -0.97656%;
+    margin-left: 20.3809%;
+    margin-right: -100%;
+    margin-top: 3em;
+    padding-left: 0.97656%;
+    padding-right: 0.97656%;
+    position: relative;
+    width: 59.1894%;
+}
+@media only screen and (max-width: 1023px) {
+#footer .region-footer-4 {
+    clear: both;
+    display: block;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+}
+}
+@media only screen and (max-width: 749px) {
+#footer .region-footer-4 {
+    clear: none;
+    display: block;
+    float: left;
+    left: -2.63158%;
+    margin-left: 52.5658%;
+    margin-right: -100%;
+    padding-left: 2.63158%;
+    padding-right: 2.63158%;
+    position: relative;
+    width: 47.3026%;
+}
+}
+#footer .region-footer-4 .block {
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+#footer .region-footer-4 .block-menu h2, #footer .region-footer-4 .block-menu .menu li, #footer .region-footer-4 .block-menu .menu {
+    clear: none;
+    display: inline-block;
+    margin: 0 0 0 1em;
+}
+@media only screen and (max-width: 749px) {
+#footer .region-footer-4 .block-menu h2, #footer .region-footer-4 .block-menu .menu li, #footer .region-footer-4 .block-menu .menu {
+    display: block;
+    margin: 0 0 0.5em;
+}
+}
+@media only screen and (max-width: 749px) {
+#footer .region-footer-4 h2 {
+    margin-bottom: 1em;
+}
+}
+#footer .region-footer-4 h2, #footer .region-footer-4 ul {
+    margin-left: 0;
+}
+#sidebar .block {
+    left: -5.29942%;
+    padding: 1.5em 5.29942%;
+    position: relative;
+}
+@media only screen and (max-width: 1820px) {
+#sidebar .block {
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+}
+#sidebar .block:first-child {
+    padding-top: 0;
+}
+#sidebar .block + .block-views {
+    margin-top: 1em;
+}
+#sidebar .block-menu-block, #sidebar .block-views.block-links, #sidebar .block-menu, #sidebar #block-views-topics-block-4 {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: rgba(20, 20, 20, 0.95);
+    border-color: #333 #000 #000;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    color: #fff;
+    margin-top: 0;
+    padding-top: 1.5em !important;
+}
+.ie6-8 #sidebar .block-menu-block, .ie6-8 #sidebar .block-views.block-links, .ie6-8 #sidebar .block-menu, .ie6-8 #sidebar #block-views-topics-block-4 {
+    background-color: #333;
+}
+#sidebar .block-menu-block a, #sidebar .block-views.block-links a, #sidebar .block-menu a, #sidebar #block-views-topics-block-4 a {
+    color: #89cbe1;
+}
+#sidebar .block-menu-block a:hover, #sidebar .block-views.block-links a:hover, #sidebar .block-menu a:hover, #sidebar #block-views-topics-block-4 a:hover {
+    color: #fff;
+}
+#sidebar .block-menu-block:first-child, #sidebar .block-views.block-links:first-child, #sidebar .block-menu:first-child, #sidebar #block-views-topics-block-4:first-child {
+    margin-top: -9.5em;
+}
+@media only screen and (max-width: 1023px) {
+#sidebar .block-menu-block:first-child, #sidebar .block-views.block-links:first-child, #sidebar .block-menu:first-child, #sidebar #block-views-topics-block-4:first-child {
+    margin-top: 0;
+}
+}
+#sidebar [id*="block-views-spotlight"], #sidebar .block-search, #sidebar #topic-preview {
+    background-color: #f1f2ee;
+    border: 1px solid #ddd;
+    color: #333;
+}
+.sidebars .block:first-child {
+    padding-top: 0;
+}
+.region .block {
+    padding-bottom: 0.2em;
+    padding-top: 0.2em;
+}
+hr {
+color: #696969;
+background-color: #696969;
+height: 5px;
+}
