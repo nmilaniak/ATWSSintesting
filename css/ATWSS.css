@@ -1274,5 +1274,6 @@ html[lang="fr"] .Opinion.views-row h3:before {
 hr {
 color: #696969;
 background-color: #696969;
-height: 5px;
+height: 1px;
+border-radius: 2px;
 }
