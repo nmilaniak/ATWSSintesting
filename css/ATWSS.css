@@ -129,12 +129,14 @@ h3 code {
 
 /* Masthead (docs home)
 ------------------------- */
-.masthead { background: url("../img/atlas3.jpg") repeat scroll left center
+.masthead { background: url("../img/atlas5.jpg") repeat scroll left center
         transparent;
 
 	padding: 70px 0 80px;
 	margin-bottom: 0;
 	color: #fff;
+    text-shadow: 0.2em 0.2em 0.05em #000 
+
 }
 
 .masthead h1 {
@@ -215,7 +217,7 @@ pre, code {
 /* Subhead (other pages)
 ------------------------- */
 .subhead {
-    background: url("../img/collide3.jpg") repeat scroll left center
+    background: url("../img/collide7.jpg") repeat scroll left center
         transparent;
 	text-align: left;
 }
@@ -232,6 +234,7 @@ pre, code {
 	display: none;
 }
 .update-area {
+    color: #000;
     display: block;
     float: left;
     left: -0.97656%;
@@ -321,11 +324,13 @@ pre, code {
     color: #89cbe1;
 }
 .update-area .block-block {
+    color: #000;
     border-bottom: medium none;
     box-shadow: 0 8px 8px rgba(0, 0, 0, 0.7);
     padding-bottom: 0;
 }
 .update-area .block-block + .block {
+    color: #000;
     border-top: medium none;
 }
 .update-area .more-link {
@@ -370,6 +375,7 @@ pre, code {
     width: 100%;
 }
 .update-area h2 {
+    color: #696969;
     margin-bottom: 0;
     padding: 0;
 }
