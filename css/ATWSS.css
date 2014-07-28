@@ -117,21 +117,21 @@ h3 code {
 }
 
 .jumbotron:after {
-	background: url("../img/space.jpg") repeat scroll left center
-		transparent;
-	opacity: 0.75;
-	bottom: 0;
-	content: "";
-	display: block;
-	left: 0;
-	position: absolute;
-	right: 0;
-	top: 0;
+    opacity: 0.75;
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 /* Masthead (docs home)
 ------------------------- */
-.masthead {
+.masthead { background: url("../img/atlas3.jpg") repeat scroll left center
+        transparent;
+
 	padding: 70px 0 80px;
 	margin-bottom: 0;
 	color: #fff;
@@ -215,6 +215,8 @@ pre, code {
 /* Subhead (other pages)
 ------------------------- */
 .subhead {
+    background: url("../img/collide3.jpg") repeat scroll left center
+        transparent;
 	text-align: left;
 }
 
