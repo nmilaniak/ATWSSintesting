@@ -31,7 +31,10 @@ body>.navbar .navbar-brand img {
 body {
 	position: relative;
 	padding-top: 40px;
+    background: url(/img/earth.jpg);
+    background-attachment: fixed;
 }
+
 
 /* Code in headings */
 h3 code {
@@ -217,8 +220,7 @@ pre, code {
 /* Subhead (other pages)
 ------------------------- */
 .subhead {
-    background: url("../img/collide6.jpg") repeat scroll left center
-        transparent;
+
 	text-align: left;
 }
 
@@ -1285,3 +1287,6 @@ background-color: #696969;
 height: 1px;
 border-radius: 2px;
 }
+
+
+

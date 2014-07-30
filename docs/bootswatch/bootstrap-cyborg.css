@@ -1411,7 +1411,7 @@ table {
   border-width: 20px;
 }
 th {
-  text-align: middle;
+  text-align: left;
 }
 .table {
   width: 100%;
@@ -4408,7 +4408,7 @@ a.list-group-item.active > .badge,
   padding: 4px;
   margin-bottom: 20px;
   line-height: 1.42857143;
-  background-color: #060606;
+
   border: 1px solid #dddddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
