@@ -1,6 +1,8 @@
 <!doctype html>
 <html><head>
-    <!-- Meta, title, CSS, favicons, etc. -->
+
+
+<!-- title, CSS, favicons, etc. -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>ATWSS</title>
 
@@ -79,16 +81,78 @@ $(function () {
     {% include nav-main.html %}
 
     <!-- Docs page layout -->
+
+            <div class="content">
+            <div class="row clearfix">
+            <div class="col-md-12 column">
+            <div class="row clearfix">
+            <div class="col-md-3 column">
+                <ul class="ca-menu" >
+                    <li>
+                        <a href="/docs/documentation">
+                            <span class="ca-icon">A</span>
+                            <div class="ca-content">
+                                <h2 class="ca-main">Documentation</h2>
+                                <h3 class="ca-sub">All in one place</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/docs/ghdocumentation">
+                            <span class="ca-icon">T</span>
+                            <div class="ca-content">
+                                <h2 class="ca-main">GitHub Documentation</h2>
+                                <h3 class="ca-sub">All you need to know</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/docs/atlas">
+                            <span class="ca-icon">W</span>
+                            <div class="ca-content">
+                                <h2 class="ca-main">More about ATLAS</h2>
+                                <h3 class="ca-sub">All the facts</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/docs/people">
+                            <span class="ca-icon">S</span>
+                            <div class="ca-content">
+                                <h2 class="ca-main">Sophisticated Team</h2>
+                                <h3 class="ca-sub">Contact us</h3>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/docs/companies">
+                            <span class="ca-icon">S</span>
+                            <div class="ca-content">
+                                <h2 class="ca-main">Companies</h2>
+                                <h3 class="ca-sub">Our associates</h3>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div><!-- content -->
+        </div>
+        </div>
+        </div>
+
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
 <!-- Subhead
 ================================================== -->
 <div class="jumbotron subhead" id="overview">
+
   <div class="container">
     <h1>{{ page.title }}</h1>
     <p class="lead">{{ page.lead }}</p>
   </div>
+  
 </div>
 
 <div class="row">
+
 
 <!--
         <div class="col col-lg-3">
@@ -124,12 +188,12 @@ $(function () {
 
 
 
-<div class="row clearfix">
+<!--<div class="row clearfix">
     <div class="col-md-12 column" style="margin-left:130px;">
       <div class="row clearfix">
         <div class="col-md-4 column">
     <!-- JS and analytics only. -->
-          {% include footer2.html %} 
+        <!--  {% include footer2.html %} 
 
         </div>
         <div class="col-md-4 column">
@@ -141,7 +205,7 @@ $(function () {
         </div>
     </div>
   </div>
-</div>
+</div>-->
     {% include colophon.html %}
 
   
