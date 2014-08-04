@@ -11,7 +11,7 @@ body>.navbar .navbar-brand img {
 
 .footer {
 	margin-top: 0px;
-	background-color: #ADA295;
+	background-color: #62524F;
 	border-top: 1px solid #797168;
 	padding: 10px 0;
 	text-align: right;
@@ -26,9 +26,29 @@ body>.navbar .navbar-brand img {
 }
 
 .thumbnail {
-    border: 0px;
+    border: 2px;
 	margin-bottom: 20px;	
 }
+.thumbnail-2 {
+    border: 5px;
+    border-color: #1A1511;
+background: rgb(181,189,200); /* Old browsers */
+background: -moz-linear-gradient(-45deg,  rgba(181,189,200,1) 0%, rgba(71,75,81,1) 34%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(181,189,200,1)), color-stop(34%,rgba(71,75,81,1)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  rgba(181,189,200,1) 0%,rgba(71,75,81,1) 34%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  rgba(181,189,200,1) 0%,rgba(71,75,81,1) 34%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  rgba(181,189,200,1) 0%,rgba(71,75,81,1) 34%,rgba(0,0,0,1) 100%); /* IE10+ */
+background: linear-gradient(135deg,  rgba(181,189,200,1) 0%,rgba(71,75,81,1) 34%,rgba(0,0,0,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+
+
+
+    margin-bottom: 20px;  
+    min-height: 250px;  
+}
+
 
 /* Body and structure
 -------------------------------------------------- */
@@ -276,8 +296,8 @@ pre, code {
 }
 }
 .update-area .block {
-    background-color: rgba(255, 255, 255, 0.95);
-    border: 1px solid #fff;
+    background-color: #62524F;
+    border: 1px solid #281F1D;
     box-shadow: 0 8px 8px rgba(0, 0, 0, 0.7);
     box-sizing: content-box;
     clear: both;
@@ -322,10 +342,10 @@ pre, code {
     color: #000;
 }
 .ie6-8 .update-area .block-updates-significant {
-    background-color: #333;
+    background-color: #62524F;
 }
 .update-area .block-updates-significant a {
-    color: #89cbe1;
+    color: #62524F;
 }
 .update-area .block-updates-significant a:hover {
     color: #000;
@@ -334,7 +354,7 @@ pre, code {
     color: #000;
 }
 .update-area .block-updates-significant h2 a:hover {
-    color: #89cbe1;
+    color: #62524F;
 }
 .update-area .block-block {
     color: #000;
@@ -388,7 +408,7 @@ pre, code {
     width: 100%;
 }
 .update-area h2 {
-    color: #696969;
+    color: #fff;
     margin-bottom: 0;
     padding: 0;
 }
@@ -1322,7 +1342,7 @@ border-radius: 2px;
     height: 100%;
 }
 .title:after {
-    background: none repeat scroll 0 0 rgba(171, 155, 105, 0.9);
+    background: none repeat scroll 0 0 rgba(98, 82, 79, 0.9);
     color: #fff;
     content: attr(data-title);
     line-height: 1.5em;
@@ -1332,10 +1352,10 @@ border-radius: 2px;
     white-space: pre;
 }
 .title.move {
-    background: none repeat scroll 0 0 #AB9B8A;
+    background: none repeat scroll 0 0 #62524F;
 }
 .title.move.overlay:before {
-    background: none repeat scroll 0 0 rgba(240, 18, 156, 0.5);
+    background: none repeat scroll 0 0 rgba(98, 82, 79, 0.5);
     left: 0;
     top: 100%;
     z-index: 1;
@@ -1360,7 +1380,7 @@ border-radius: 2px;
     top: 0;
 }
 .title.move:after {
-    background: none repeat scroll 0 0 #AB9B8A;
+    background: none repeat scroll 0 0 #62524F;
     bottom: -3.5em;
     z-index: 2;
 }
@@ -1402,11 +1422,11 @@ border-radius: 2px;
     opacity: 1;
 }
 .title.fade-in.overlay:before {
-    background: rgba(255, 228, 198, 0.5);
+    background: rgba(98, 82, 79, 0.5);
 }
  
 .title.fade-in.overlay:hover:before {
-    background: rgba(255, 228, 198, 0.5);
+    background: rgba(98, 82, 79, 0.5);
 }
 .title.uncover {
     background: rgba(24, 188, 156);
@@ -1432,7 +1452,7 @@ border-radius: 2px;
     top: 0;
     left: 0;
     height: auto;
-    background: rgba(24, 188, 156, .5);
+    background: rgba(98, 82, 79, 0.5);
     z-index: 2;
     bottom: 0;
     top: 100%;
@@ -1510,7 +1530,7 @@ font-family: 'Lato', Arial, sans-serif;
     height: 100px;
     overflow: hidden;
     display: block;
-    background: #ADA295;
+    background: #62524F;
     -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
     -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
     box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
@@ -1530,7 +1550,7 @@ font-family: 'Lato', Arial, sans-serif;
     display: block;
     width: 100%;
     height: 100%;
-    color: #333;
+    color: #000;
     position:relative;
 }
 .ca-icon{
@@ -1564,7 +1584,7 @@ font-family: 'Lato', Arial, sans-serif;
 }
 .ca-sub{
     font-size: 14px;
-    color: #666;
+    color: #130603;
     -webkit-transition: all 300ms linear;
     -moz-transition: all 300ms linear;
     -o-transition: all 300ms linear;
@@ -1587,4 +1607,37 @@ font-family: 'Lato', Arial, sans-serif;
 .ca-menu li:hover .ca-sub{
     color: #fff;
     font-size: 20px;
+}
+
+
+.lightbox {
+  /** Hide the lightbox */
+  display: none;
+
+  /** Apply basic lightbox styling */
+  position: fixed;
+  z-index: 1002;
+  width: 100%;
+  height: 103%;
+  text-align: center;
+  top: -3%;
+  left: -3%;
+  background: black;
+  background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+  /** Pad the lightbox image */
+  width: 40%;
+  height: auto;
+  min-width: 600px;
+  margin-top: 10%;
+}
+
+.lightbox:target {
+  /** Show lightbox when it is target */
+  display: block;
+
+  /** Remove default browser outline style */
+  outline: none;
 }

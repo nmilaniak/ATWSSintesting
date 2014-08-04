@@ -14,7 +14,7 @@ html {
 }
 body {
   margin: 0;
-  background-color: #000000;
+  background-color: #130603;
 }
 article,
 aside,
@@ -753,11 +753,11 @@ pre code {
   padding-right: 40px;
   margin-right: auto;
   margin-left: auto;
-  background: #D6C2AD;
+  background: #281F1D;
   opacity: 0.8;
   min-height: 800px;
   text-align: center;
-  color: #000;
+  color: #fff;
   font-family: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
@@ -776,11 +776,11 @@ pre code {
   padding-right: 40px;
   margin-right: auto;
   margin-left: auto;
-  background: #5F1919;
+  background: #201411;
   opacity: 0.8;
   min-height: 800px;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   font-family: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
@@ -2087,8 +2087,8 @@ fieldset[disabled] .btn {
 }
 .btn-default {
   color: #ffffff;
-  background-color: #424242;
-  border-color: #424242;
+  background-color: #62524F;
+  border-color: #62524F;
 }
 .btn-default:hover,
 .btn-default:focus,
@@ -2096,7 +2096,7 @@ fieldset[disabled] .btn {
 .btn-default.active,
 .open .dropdown-toggle.btn-default {
   color: #ffffff;
-  background-color: #2d2d2d;
+  background-color: #130603;
   border-color: #232323;
 }
 .btn-default:active,
@@ -3685,6 +3685,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-top-left-radius: 0;
 }
 .navbar {
+  background: #130603;
   position: relative;
   min-height: 50px;
   margin-bottom: 20px;
@@ -3697,10 +3698,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-header {
+    background: #130603;
     float: left;
   }
 }
 .navbar-collapse {
+  background: #130603;
   max-height: 340px;
   overflow-x: visible;
   padding-right: 15px;
@@ -4029,7 +4032,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #000000;
+  border-color: #130603;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
