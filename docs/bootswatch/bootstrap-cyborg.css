@@ -87,7 +87,7 @@ sub {
   bottom: -0.25em;
 }
 img {
-border: 1.75px solid #696969;
+border: 3px inset #696969;
 
 }
 svg:not(:root) {

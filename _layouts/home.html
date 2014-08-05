@@ -4,18 +4,34 @@
 
     <!-- Meta, title, CSS, favicons, etc. -->
 
-    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
-<link href="style.css" type="text/css" rel="stylesheet">
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<link href="style.css" type="text/css" rel="stylesheet"></link>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <style type="text/css">
+  </style>
+<script type="text/javascript">
 
-</link>
+jQuery(document).ready(function($) {  
+
+// site preloader -- also uncomment the div in the header and the css style for #preloader
+$(window).load(function(){
+  $('#preloader').fadeOut(2200,function(){$(this).remove();});
+});
+
+});
+  </script>
+
     <link rel="stylesheet" href="/docs/bootswatch/bootstrap-cyborg.css">
-    </head><body data-spy="scroll" data-target=".bs-sidebar">{% include header.html %}
+    </head>
+    <div class="js">
+    <body data-spy="scroll" data-target=".bs-sidebar">{% include header.html %}
     <!-- Place anything custom after this. -->
 
 <!--<div id="foreground"></div>
-  
+ 
 
-    <!-- Docs master nav -->
+    <!-- Docs master nav --> 
+
     {% include nav-main.html %}
 
     <!-- Docs page layout -->
@@ -43,7 +59,7 @@
     </div>
 -->
     <div class="container">
-
+ <div id="preloader"></div>
 
 
       <div class="row">  
@@ -125,7 +141,7 @@
         Back to top
       </a>
 -->
-    </div>
+
 
     <!-- Main docs footer (social buttons, copyright, etc). -->
 
@@ -151,7 +167,10 @@
     </div>
 </div>
 
+
     <!-- JS and analytics only. -->
 
   
-</body></html>
+</body>
+</div>
+</html>
