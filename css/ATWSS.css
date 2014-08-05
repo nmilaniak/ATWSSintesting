@@ -1519,13 +1519,15 @@ font-family: 'Lato', Arial, sans-serif;
 }
 
 .ca-menu{
-    padding: 0;
+    padding: 0px;
+    float: left;
     left: 0px;
     margin-top: 254px;
     width: 500px;
     position: fixed;
 }
 .ca-menu li{
+    float: left;
     width: 320px;
     height: 100px;
     overflow: hidden;
@@ -1546,6 +1548,7 @@ font-family: 'Lato', Arial, sans-serif;
     margin-bottom: 0px;
 }
 .ca-menu li a{
+    float: left;
     text-align: left;
     display: block;
     width: 100%;
@@ -1554,6 +1557,7 @@ font-family: 'Lato', Arial, sans-serif;
     position:relative;
 }
 .ca-icon{
+    float: left;
     font-size: 50px;
     text-shadow: 0px 0px 1px #333;
     line-height: 90px;
@@ -1641,3 +1645,9 @@ font-family: 'Lato', Arial, sans-serif;
   /** Remove default browser outline style */
   outline: none;
 }
+
+/*changing hiperlinks colors */
+a { color: #D1C2B2}
+a.visited, a:hover {color: #94704D;}
+
+a.special {color:#94704D}
