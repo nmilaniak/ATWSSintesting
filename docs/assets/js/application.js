@@ -9,6 +9,12 @@
  * details, see http://creativecommons.org/licenses/by/3.0/.
  */
 
+//= require jquery
+//= require jquery-ui
+//= require jquery_ujs
+//= require bootstrap-dropdown
+//= require bootstrap
+//= require_tree .
 
 !function ($) {
 

@@ -3493,6 +3493,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-left: -1px;
 }
 .nav {
+  z-index: 1000;
   margin-bottom: 0;
   padding-left: 0;
   list-style: none;
@@ -3840,7 +3841,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
-    position: static;
+    position: relative;
     float: none;
     width: auto;
     margin-top: 0;
