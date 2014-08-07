@@ -10,32 +10,74 @@ dir: .
     <div class="container" style="margin-left:300px;">
       <div class="row clearfix">
         <div class="col-md-12 column">
-          <div class="row clearfix">
-    		    <div class="col-md-6 column">
+          <div class="container-x2">
+    		    <div class="col-md-6 column" style="margin-top: 250px;">
        	      <h3>What Camera View is?</h3>
               <p>What was the first idea?</p>
 		      		<p>Whose idea was it?</p>
               <p>What are the functions?</p>
               <p>What we will be able to achieve?</p>
     		    </div>
-            <div class="col-md-6 column">
+            <div class="col-md-6 column" style="margin-top: 200px;">
 				      <h3>How does it look like?</h3>
              	<img src="/img/gopro.jpg" width="100%"></img>
             </div>
 		      </div>
-          <div class="row clearfix">
-<hr style="height:.5px;color: white;" /> 
-        		<div class="col-md-12 column">
+          </div>
+          </div>
+          <div class="container" style="height: 300px;"></div>
+          <div class="row clearfix" >
+        		<div class="col-md-12 column" > 
+            <div class="container-x3" >
+            <div class="col-md-12 column" style="margin-top: 200px;">
+            <h2>Live streaming</h2>
            		<!--<embed src="/img/lhc.mp4" width=100%></embed>
-           	</div>
+           	</div>-->
+            </div>
+            </div>
+            </div>
+            </div>
+          <div class="container" style="height: 300px;"></div>
+
+          
+          <div class="row clearfix">
       			<div class="col-md-12 column">
+            <div class="container-x2">
+            <div class="col-md-12 column">
            		<h3>What is going on?</h3>
-                <script src="highcharts.js"></script>
-                <script src="exporting.js"></script>
-                <script type="dark-green.js"></script>
-                  <div id="container"></div>
+              <script src="http://code.highcharts.com/maps/highmaps.js"></script>
+<script src="http://code.highcharts.com/mapdata/index.js?1"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.js"></script>
+<script src="http://www.highcharts.com/samples/maps/demo/all-maps/jquery.combobox.js"></script>
+
+<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/base/jquery-ui.css" rel="stylesheet">
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<div id="demo-wrapper">
+    <div id="mapBox">
+        <div id="up"></div>
+        <div class="selector">
+            <button id="btn-prev-map" class="prev-next"><i class="fa fa-angle-left"></i></button>
+            <select id="mapDropdown" class="ui-widget combobox"></select>
+            <button id="btn-next-map" class="prev-next"><i class="fa fa-angle-right"></i></button>
+        </div>
+        <div id="container"></div> 
+    </div>
+    <div id="sideBox">
+        
+        <input type="checkbox" id="chkDataLabels" checked='checked' />
+        <label for="chkDataLabels" style="display: inline">Data labels</label>
+        <div id="infoBox">
+            <h4>This map</h4>
+            <div id="download"></div>
+        </div>
+    </div>
+</div>
 
             </div>
+            </div>
+            </div>
+            </div>
+
          <!--<div class="row clearfix">
             <hr>
             <div class="col-md-12 column">
@@ -76,11 +118,10 @@ dir: .
                   </ul>
                 </div>-->
               </div>
-              </nav>
-            </div>
-          </div>
-          <div class="row clearfix">
+          <div class="container" style="height: 300px;"></div>
         		<div class="col-md-12 column">
+            <div class="container-x3">
+            <div class="col-md-12 column" style="margin-top: 30px;">
               <div class="row clearfix">
               <h4>Date, time</h4>
             <div class="col-md-3 column">
@@ -113,11 +154,7 @@ dir: .
               </a>
             </div>
           </div>
-          </div>
-          </div>
           <div class="row clearfix">
-            <div class="col-md-12 column">
-            <div class="row clearfix">
               <h4>Date, time</h4>
             <div class="col-md-3 column">
               <a href="#img5" class="title move" data-title="..." href="https://espace.cern.ch/CRSS/Seminar%20Agenda/Cern%20picture.jpg">
@@ -148,11 +185,7 @@ dir: .
               </a>
             </div>
           </div>
-          </div>
-          </div>
           <div class="row clearfix">
-            <div class="col-md-12 column">
-              <div class="row clearfix">
               <h4>Date, time</h4>
             <div class="col-md-3 column">
               <a href="#img9" class="title move" data-title="..." href="https://espace.cern.ch/CRSS/Seminar%20Agenda/Cern%20picture.jpg">
@@ -181,9 +214,15 @@ dir: .
               <a href="#_" class="lightbox" id="img12">
               <img src="http://blog.sciencemuseum.org.uk/insight/files/2013/07/CMS.-Credit-CERN.jpg">
               </a>
+              </div>
+              </div>
+              </div>
+              </div>
+            </div>
             </div>
           </div>
           <h1></h1>
+        </div>
         </div>
       </div>
     </div>
